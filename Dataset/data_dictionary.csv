@@ -1,0 +1,25 @@
+column,type,description
+marriage_id,string,Unique marriage id
+marriage_number,int,"1st, 2nd or 3rd marriage — one of the strongest demographic risk factors"
+age_at_marriage,int,Age at the start of this marriage
+age_gap_years,int,Age difference between partners
+education_level,string,less_than_hs / high_school / some_college / bachelors / graduate
+household_income_usd,float,Household income (USD)
+financial_stress,float,Self-reported financial stress (0-10)
+both_employed,int,1 if both partners employed
+cohabited_before,int,1 if the couple cohabited before marrying
+premarital_counseling,int,1 if they did premarital counselling — a protective factor
+child_before_marriage,int,1 if a child arrived before the marriage
+n_children,int,Number of children
+religious_attendance,string,never / rarely / monthly / weekly
+criticism,float,GOTTMAN behaviour: attacking partner's character in conflict (0-10)
+contempt,float,"GOTTMAN behaviour: mockery, sneering, disgust (0-10) — the strongest single predictor"
+defensiveness,float,GOTTMAN behaviour: deflecting responsibility (0-10)
+stonewalling,float,GOTTMAN behaviour: withdrawing and shutting down (0-10)
+repair_attempt_success,float,How well de-escalation attempts land (0-10) — protective
+positive_negative_ratio,float,Ratio of positive to negative interactions (Gottman's ~5:1 magic ratio)
+conflict_frequency_weekly,float,Arguments per week
+shared_activities_weekly,float,Shared activities per week
+years_married,float,"Years married (to divorce, or to date if still married)"
+years_to_divorce,float,Years from marriage to divorce (NaN if still married)
+divorced,int,TARGET: 1 if the marriage ended in divorce
